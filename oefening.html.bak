@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<title>Sjabloon voor een HTML5-document</title>
+		<meta charset="utf-8">
+		<!--[if lt IE 9]
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/htm5reset-1.6.1.css">
+	</head>
+	<body>
+		<article>
+		<header>
+			<h1>dit is de kop in de header</h1>
+		</header>
+	</article>
+		<nav>
+		</nav>
+		<section>
+			<h1>een aantal artikelen in een sectie</h1>
+			<article>
+				<hgroup>
+					<h1>kop 1 in een artikel</h1>
+					<h2>onderkop  in een artikel</h2>
+				</hgroup>
+				dit is dan de tekst in het artikel
+				<footer>dit is de footer in een artikel</footer>
+			</article>
+			<article>
+				<hgroup>
+					<h1>kop 1 in het 2e artikel</h1>
+					<h2>onderkop  in een artikel</h2>
+				</hgroup>
+				dit is dan de tekst in het 2e artikel
+				<footer>dit is de footer in het 2e artikel</footer>
+			</article>
+		</section>
+		
+		
+		<article>
+			<h1>kop 1 in het laatste artikel</h1>
+			<footer>dit is de footer in het laatste artikel</footer>
+		</article>
+		<footer>dit is de footer onderaan de pagina</footer>
+	</body>
+</html>

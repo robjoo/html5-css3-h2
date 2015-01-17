@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<title>Sjabloon voor een HTML5-document</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/htm5reset-1.6.1.css">
+		<link rel="stylesheet" href="stijlen.css">
+	</head>
+	<body>
+		<header>
+			<h1>Dit is een kop h1</h1>
+		</header>
+		<article>
+			<header>
+				<h1>Bij deze kop begint het artikel</h1>
+			</header1>
+			<p>Alineatekst</p>
+			<h2>Dit is een subparagraaf</h2>
+			<p>Alineatekst</p>
+		</article>
+		<article>
+			<header>
+				<h1>Bij deze kop begint een nieuw artikel</h1>
+			</header1>
+			<p>Alineatekst</p>
+		</article>
+	</body>
+</html>
